@@ -1,0 +1,6 @@
+/* Source: https://tailwindcss.com/docs/guides/vite -> index.css */
+/* https://youtu.be/LDB4uaJ87e0?t=1759 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
