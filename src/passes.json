@@ -1,40 +1,38 @@
-{
-  "passes": [
-    {
-      "id": "1",
-      "title": "Tier 1",
-      "description": "Pass Tier 1 Description",
-      "price": ""
-    },
-    {
-      "id": "2",
-      "title": "Tier 2",
-      "description": "Pass Tier 2 Description",
-      "price": ""
-    },
-    {
-      "id": "3",
-      "title": "Tier 3",
-      "description": "Pass Tier 3 Description",
-      "price": ""
-    },
-    {
-      "id": "4",
-      "title": "Tier 4",
-      "description": "Pass Tier 4 Description",
-      "price": ""
-    },
-    {
-      "id": "5",
-      "title": "Tier 5",
-      "description": "Pass Tier 5 Description",
-      "price": ""
-    },
-    {
-      "id": "6",
-      "title": "Tier 6",
-      "description": "Pass Tier 6 Description",
-      "price": ""
-    }
-  ]
-}
+[
+  {
+    "id": "1",
+    "title": "Tier 1",
+    "description": "Pass Tier 1 Description",
+    "price": "$1"
+  },
+  {
+    "id": "2",
+    "title": "Tier 2",
+    "description": "Pass Tier 2 Description",
+    "price": "$2"
+  },
+  {
+    "id": "3",
+    "title": "Tier 3",
+    "description": "Pass Tier 3 Description",
+    "price": "$3"
+  },
+  {
+    "id": "4",
+    "title": "Tier 4",
+    "description": "Pass Tier 4 Description",
+    "price": "$4"
+  },
+  {
+    "id": "5",
+    "title": "Tier 5",
+    "description": "Pass Tier 5 Description",
+    "price": "$5"
+  },
+  {
+    "id": "6",
+    "title": "Tier 6",
+    "description": "Pass Tier 6 Description",
+    "price": "$6"
+  }
+]

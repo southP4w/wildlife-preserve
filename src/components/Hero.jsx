@@ -1,4 +1,5 @@
 // Source: https://www.youtube.com/watch?v=LDB4uaJ87e0&t=2724s
+
 // eslint-disable-next-line react/prop-types
 export const Hero = ({mainHeading = 'Default Heading', mainHeadingSubtext = 'Default Heading Subtext'}) =>
     (
