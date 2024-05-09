@@ -1,8 +1,8 @@
 // Source: https://www.youtube.com/watch?v=LDB4uaJ87e0&t=2724s
 
-// eslint-disable-next-line react/prop-types
 import ostrich from '../assets/images/ostrich.jpg'
 
+// eslint-disable-next-line react/prop-types
 export const Hero = ({mainHeading = 'Welcome to Csci Zoo', mainHeadingSubtext = 'Plan your adventure'}) =>
     (
         <section className='relative w-full'>
