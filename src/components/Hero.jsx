@@ -1,13 +1,16 @@
 // Source: https://www.youtube.com/watch?v=LDB4uaJ87e0&t=2724s
 
 // eslint-disable-next-line react/prop-types
-export const Hero = ({mainHeading = 'Default Heading', mainHeadingSubtext = 'Default Heading Subtext'}) =>
+import ostrich from '../assets/images/ostrich.jpg'
+
+export const Hero = ({mainHeading = 'Welcome to Csci Zoo', mainHeadingSubtext = 'Plan your adventure'}) =>
     (
-        <section className='bg-indigo-700 py-20 mb-4'>
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
-                <div className='text-center'>
+        <section className='relative w-full'>
+            <img className='w-full h-96' src={ostrich} alt='Ostrich Logo' style={{objectFit: 'cover'}}/>
+            <div className='absolute top-0 left-0 p-8'>
+                <div className='text-left'>
                     <h1 className='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl'>{mainHeading}</h1>
-                    <p className='my-4 text-xl text-white'>{mainHeadingSubtext}</p>
+                    <p className='mt-4 text-xl text-white'>{mainHeadingSubtext}</p>
                 </div>
             </div>
         </section>

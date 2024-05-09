@@ -1,7 +1,7 @@
-import {Navbar} from "./components/Navbar.jsx";
-import {Hero} from "./components/Hero.jsx";
-import {HomeCards} from "./components/HomeCards.jsx";
-import {PassListings} from "./components/PassListings.jsx";
+import {Navbar} from "../components/Navbar.jsx";
+import {Hero} from "../components/Hero.jsx";
+import {HomeCards} from "../components/HomeCards.jsx";
+import {PassListings} from "../components/PassListings.jsx";
 
 const App = () => {
     return (

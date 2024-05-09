@@ -9,13 +9,19 @@ export const Navbar = () => {
                     <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
                         <a className='flex flex-shrink-0 items-center mr-4' href='/index.html'>
                             <img className='h-10 w-auto' src={logo} alt='Ostrich Logo'/>
-                            <span className='hidden md:block text-white text-2xl font-bold ml-2'>Preservation Name</span>
+                            <span className='hidden md:block text-white text-2xl font-bold ml-2'>Csci Zoo</span>
                         </a>
                         <div className='md:ml-auto'>
                             <div className='flex space-x-2'>
-                                <a href='/index.html' className='text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Home</a>
-                                <a href='/page.html' className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Link 01</a>
-                                <a href='/page.html' className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Link 02</a>
+                                <a href='/index.html'
+                                   className='text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Home</a>
+                                <a href='/Animals.html'
+                                   className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Animals</a>
+                                <a href='/Contact.html'
+                                   className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Contact</a>
+                                <a href='/Login.html'
+                                   className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Login</a>
+
                             </div>
                         </div>
                     </div>
