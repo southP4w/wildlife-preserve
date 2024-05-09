@@ -21,7 +21,6 @@ export const Navbar = () => {
                                    className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Contact</a>
                                 <a href='/Login.html'
                                    className='text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>Login</a>
-
                             </div>
                         </div>
                     </div>
