@@ -15,13 +15,15 @@ export const PassListing = ({pass}) => {
 				</div>
 				<div className='mb-5'></div>
 				<h3 className='text-indigo-500 mb-2'>{description}</h3>
-				<button onClick={() => setShowDescription((previousState) => !previousState)} className={'text-indigo-500.mb-5 hover:text-indigo-600'}>Show {showDescription ? 'less' : 'more'}</button>
+				<button className={'text-indigo-500.mb-5 hover:text-indigo-600'} onClick={() => setShowDescription((previousState) => !previousState)}>
+					Show {showDescription ? 'less' : 'more'}
+				</button>
 				<div className='border border-gray-100 mb-5'></div>
 				<div className='flex flex-col lg:flex-row justify-between mb-4'>
 					<div className='text-green-600 mb-3'>
 						<FaTree className={'inline text-lg mb-1 mr-1'}/>{price}
 					</div>
-					<a href={`/pass/${id}`} className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'>
+					<a href={`/passes/${id}`} className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'>
 						Read More
 					</a>
 				</div>
