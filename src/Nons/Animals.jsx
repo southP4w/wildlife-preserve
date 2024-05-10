@@ -1,6 +1,6 @@
 import '../index.css'
 import {Navbar} from "../components/Navbar.jsx";
-const Login = () => {
+const Animals = () => {
 	return (
 		<>
 			<Navbar/>
@@ -8,4 +8,4 @@ const Login = () => {
 	)
 }
 
-export default Login
+export default Animals

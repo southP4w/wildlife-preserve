@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Password = () => {
     return (
         <div className="flex h-screen">
@@ -32,10 +34,16 @@ export const Password = () => {
                         >
                             Sign In
                         </button>
+                        <button
+                            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="button"
+                            onClick={() => window.location.href = '/CreateAccount.html'}
+                        >
+                            Create Account
+                        </button>
                     </div>
                 </form>
             </div>
         </div>
     );
 };
-
