@@ -3,9 +3,9 @@ import {FaTree} from 'react-icons/fa'
 
 export const PassListing = ({pass}) => {
 	const [showDescription, setShowDescription] = useState(false)
-	let id = pass.id, title = pass.title, description = pass.description, price = pass.price
+	let id = pass.id, title = pass.title, feature = pass.features, price = pass.price
 	if (!showDescription)
-		description = description.substring(0, 90) + '...'
+		feature = feature.substring(0, 90) + '...'
 	return (
 		<div className='bg-white rounded-xl shadow-md relative'>
 			<div className='p-4'>
@@ -14,7 +14,7 @@ export const PassListing = ({pass}) => {
 					<h3 className='text-xl font-bold'></h3>
 				</div>
 				<div className='mb-5'></div>
-				<h3 className='text-indigo-500 mb-2'>{description}</h3>
+				<h3 className='text-indigo-500 mb-2'>{feature}</h3>
 				<button className={'text-indigo-500.mb-5 hover:text-indigo-600'} onClick={() => setShowDescription((previousState) => !previousState)}>
 					Show {showDescription ? 'less' : 'more'}
 				</button>

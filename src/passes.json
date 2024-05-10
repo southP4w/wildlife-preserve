@@ -2,62 +2,68 @@
   "passes": [
     {
       "id": "1",
-      "title": "Basic Pass",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eleifend ligula. Nulla quis dapibus risus. Maecenas accumsan lectus vitae mollis dapibus. Curabitur in dolor vitae metus pulvinar luctus. Pellentesque tincidunt et metus non consequat. Vestibulum facilisis mauris vitae sagittis accumsan. Sed nisi neque, commodo sed tincidunt facilisis, fringilla vel urna. Praesent nec tempor neque, eu fringilla mauris. Sed justo nunc, finibus sit amet maximus et, scelerisque in diam. Sed eu ex rhoncus, aliquet turpis finibus, iaculis eros.",
+      "title": "Daily Pass",
+      "tier": "Standard Tier",
+      "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eleifend ligula. Nulla quis dapibus risus. Maecenas accumsan lectus vitae mollis dapibus. Curabitur in dolor vitae metus pulvinar luctus. Pellentesque tincidunt et metus non consequat. Vestibulum facilisis mauris vitae sagittis accumsan. Sed nisi neque, commodo sed tincidunt facilisis, fringilla vel urna. Praesent nec tempor neque, eu fringilla mauris. Sed justo nunc, finibus sit amet maximus et, scelerisque in diam. Sed eu ex rhoncus, aliquet turpis finibus, iaculis eros.",
       "price": "$10.00",
-      "deluxe": {
-        "description": "",
-        "price": "+ $5.00"
+      "frequency": "Paid Per Visit",
+      "side": {
+        "description": "Vivamus quis dolor id mi euismod euismod. Integer quis ullamcorper metus. Vivamus aliquet sed augue vitae pellentesque. Sed vel finibus mauris. Nullam et congue dui. Maecenas a nibh fermentum, auctor metus quis, condimentum orci. Mauris eleifend lectus at sem posuere aliquet. Vestibulum magna libero, aliquam et ex sed, sagittis scelerisque sapien. Nulla facilisi. Quisque rhoncus eros ac metus luctus malesuada. In dignissim orci at nibh cursus pretium. Aenean pretium eros at facilisis luctus. Phasellus eleifend facilisis ligula, et tincidunt quam tincidunt vitae. Aenean sed justo vel orci molestie bibendum. Suspendisse in mattis nibh. Maecenas tincidunt erat viverra suscipit tristique. "
       }
     },
     {
       "id": "2",
       "title": "Bronze Pass",
-      "description": "Donec molestie ante nec ipsum tincidunt commodo eget eu libero. Fusce arcu urna, tristique nec finibus ut, venenatis vitae leo. Praesent condimentum pharetra sollicitudin. Nam eget vehicula purus. Fusce nec ultrices ante. Praesent vel quam efficitur, porta eros ac, condimentum tortor. In vitae urna tellus. Nulla facilisi. Praesent eleifend quis felis quis tempor. Donec pellentesque, eros in facilisis porttitor, justo sem viverra mauris, vitae aliquet urna quam a enim. Donec dictum rhoncus lobortis. In lacinia imperdiet placerat. ",
+      "tier": "Standard Tier",
+      "features": "Donec molestie ante nec ipsum tincidunt commodo eget eu libero. Fusce arcu urna, tristique nec finibus ut, venenatis vitae leo. Praesent condimentum pharetra sollicitudin. Nam eget vehicula purus. Fusce nec ultrices ante. Praesent vel quam efficitur, porta eros ac, condimentum tortor. In vitae urna tellus. Nulla facilisi. Praesent eleifend quis felis quis tempor. Donec pellentesque, eros in facilisis porttitor, justo sem viverra mauris, vitae aliquet urna quam a enim. Donec dictum rhoncus lobortis. In lacinia imperdiet placerat. ",
       "price": "$20.00",
-      "deluxe": {
-        "description": "",
-        "price": "+ $7.50"
+      "frequency": "Paid Per Visit",
+      "side": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare orci at dui gravida suscipit. Morbi sit amet maximus nibh. Nulla posuere gravida sagittis. Nullam vehicula nibh quis mi malesuada mattis. Vivamus porta justo justo, et euismod mi venenatis in. Maecenas accumsan leo lacus, et tincidunt diam facilisis et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla ultrices eros eu sapien facilisis, eget venenatis odio efficitur. Ut facilisis imperdiet sapien, quis eleifend orci maximus vel. Praesent in nulla a nunc dignissim sodales sit amet a orci. Proin eu orci convallis, lobortis justo non, posuere nibh. Duis at dictum elit, sit amet euismod magna. Nullam auctor venenatis diam non laoreet. Morbi placerat purus est, non auctor lorem tristique pulvinar. Duis a luctus est. "
       }
     },
     {
       "id": "3",
       "title": "Silver Pass",
-      "description": "Fusce cursus arcu quis vehicula tincidunt. Proin euismod neque et nibh mollis, quis pretium elit tristique. Nam consectetur, dolor vestibulum facilisis porta, metus lectus fermentum lorem, a laoreet est ex vitae est. Nam luctus leo eu dapibus condimentum. Aliquam erat volutpat. Praesent dolor ex, efficitur aliquam maximus in, tincidunt in lorem. Curabitur felis risus, pulvinar sit amet urna et, facilisis tincidunt risus. Mauris feugiat arcu at venenatis posuere. ",
+      "tier": "Standard Tier",
+      "features": "Fusce cursus arcu quis vehicula tincidunt. Proin euismod neque et nibh mollis, quis pretium elit tristique. Nam consectetur, dolor vestibulum facilisis porta, metus lectus fermentum lorem, a laoreet est ex vitae est. Nam luctus leo eu dapibus condimentum. Aliquam erat volutpat. Praesent dolor ex, efficitur aliquam maximus in, tincidunt in lorem. Curabitur felis risus, pulvinar sit amet urna et, facilisis tincidunt risus. Mauris feugiat arcu at venenatis posuere. ",
       "price": "$28.50",
-      "deluxe": {
-        "description": "",
-        "price": "+ $8.00"
+      "frequency": "Paid Per Visit",
+      "side": {
+        "description": "Vivamus maximus vestibulum dolor, a pellentesque magna sollicitudin id. Sed eget eleifend felis, ac laoreet nisl. Morbi sit amet maximus orci. Curabitur ullamcorper quam id tellus dignissim dignissim. Cras dolor eros, vehicula sit amet justo et, condimentum vestibulum velit. Donec vel tellus ac ipsum hendrerit ultricies. Maecenas interdum erat id felis interdum blandit. Proin tortor metus, bibendum quis volutpat ac, facilisis at ante. Mauris ultrices sed lorem in mattis. Morbi bibendum viverra ligula, a posuere purus. "
       }
     },
     {
       "id": "4",
       "title": "Gold Pass",
-      "description": "Fusce id rutrum ipsum, id pharetra ex. Mauris posuere, ipsum at sollicitudin molestie, lectus sapien ultrices augue, eu dignissim magna lacus vitae nulla. Phasellus dictum urna et mollis semper. Etiam turpis odio, bibendum eu dolor quis, scelerisque mollis lorem. Vestibulum nec varius dolor. Vestibulum vestibulum pellentesque leo in malesuada. Etiam nec metus placerat odio posuere aliquam nec ut nulla. Maecenas quis leo tempus, interdum est vitae, molestie nisl. Fusce aliquet nunc eu massa cursus, sit amet imperdiet leo pharetra. Proin ultricies magna facilisis velit tempor, non hendrerit nisl laoreet. ",
+      "tier": "Standard Tier",
+      "features": "Fusce id rutrum ipsum, id pharetra ex. Mauris posuere, ipsum at sollicitudin molestie, lectus sapien ultrices augue, eu dignissim magna lacus vitae nulla. Phasellus dictum urna et mollis semper. Etiam turpis odio, bibendum eu dolor quis, scelerisque mollis lorem. Vestibulum nec varius dolor. Vestibulum vestibulum pellentesque leo in malesuada. Etiam nec metus placerat odio posuere aliquam nec ut nulla. Maecenas quis leo tempus, interdum est vitae, molestie nisl. Fusce aliquet nunc eu massa cursus, sit amet imperdiet leo pharetra. Proin ultricies magna facilisis velit tempor, non hendrerit nisl laoreet. ",
       "price": "$38.00",
-      "deluxe": {
-        "description": "",
-        "price": "+ $8.00"
+      "frequency": "Paid Per Visit",
+      "side": {
+        "description": "Duis auctor ex sed libero interdum, sed pretium urna semper. Aliquam fringilla venenatis auctor. Mauris eget dolor congue, tempor justo non, fermentum enim. Curabitur sed neque facilisis, scelerisque sapien at, varius nulla. Sed felis nisi, ullamcorper vitae eros vitae, faucibus convallis ante. Vivamus mauris turpis, auctor sed enim quis, porttitor tincidunt ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; "
       }
     },
     {
       "id": "5",
       "title": "Platinum Pass",
-      "description": "Aliquam vitae ullamcorper tortor. Curabitur sem ligula, gravida sit amet arcu nec, vulputate pellentesque augue. Pellentesque ipsum augue, commodo in egestas non, congue sit amet leo. Nam ut vehicula libero. Sed ac lobortis felis. In hac habitasse platea dictumst. Curabitur pulvinar volutpat nisi a pharetra. Donec dui dolor, pharetra nec quam id, finibus commodo justo. Integer id sem at felis pulvinar placerat non in metus. Suspendisse potenti. Morbi auctor elementum turpis, sit amet semper libero ultricies sed. Mauris pellentesque quam at ipsum efficitur porttitor.",
+      "tier": "Enthusiast Tier",
+      "features": "Aliquam vitae ullamcorper tortor. Curabitur sem ligula, gravida sit amet arcu nec, vulputate pellentesque augue. Pellentesque ipsum augue, commodo in egestas non, congue sit amet leo. Nam ut vehicula libero. Sed ac lobortis felis. In hac habitasse platea dictumst. Curabitur pulvinar volutpat nisi a pharetra. Donec dui dolor, pharetra nec quam id, finibus commodo justo. Integer id sem at felis pulvinar placerat non in metus. Suspendisse potenti. Morbi auctor elementum turpis, sit amet semper libero ultricies sed. Mauris pellentesque quam at ipsum efficitur porttitor.",
       "price": "$55.00",
-      "deluxe": {
-        "description": "",
-        "price": "+ $10.00"
+      "frequency": "Paid Per Visit",
+      "side": {
+        "description": "Quisque dictum finibus purus, at euismod tellus scelerisque ut. Fusce tempus, est ut lacinia finibus, erat eros dictum ipsum, ut cursus enim arcu at turpis. Duis sed faucibus erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque in vehicula nisi. Pellentesque scelerisque interdum condimentum. Nullam hendrerit laoreet massa, viverra tincidunt ante luctus non. Cras lobortis nulla ex, ac mattis urna bibendum sodales. Pellentesque sit amet nulla in ipsum molestie ultricies a sit amet metus. Vivamus ultricies justo nec elit vehicula, nec dictum elit fringilla. Curabitur in nibh leo. "
       }
     },
     {
       "id": "6",
       "title": "Diamond Pass",
-      "description": "Nam eu elit feugiat, ultricies ligula sed, pretium ex. Quisque enim nisl, tempus non enim vel, rhoncus vestibulum erat. Donec varius, justo in tempus placerat, urna nibh lobortis justo, in sagittis justo eros ac tellus. Maecenas eu commodo lorem, non finibus eros. Curabitur et odio aliquam, elementum nisi eu, interdum turpis. Fusce ac pharetra elit, eu tempor eros. Donec finibus tellus tincidunt faucibus auctor. Phasellus ac commodo mi, et venenatis mauris. ",
+      "tier": "Enthusiast Tier",
+      "features": "Nam eu elit feugiat, ultricies ligula sed, pretium ex. Quisque enim nisl, tempus non enim vel, rhoncus vestibulum erat. Donec varius, justo in tempus placerat, urna nibh lobortis justo, in sagittis justo eros ac tellus. Maecenas eu commodo lorem, non finibus eros. Curabitur et odio aliquam, elementum nisi eu, interdum turpis. Fusce ac pharetra elit, eu tempor eros. Donec finibus tellus tincidunt faucibus auctor. Phasellus ac commodo mi, et venenatis mauris. ",
       "price": "$70.00",
-      "deluxe": {
-        "description": "",
-        "price": "+ $10.00"
+      "frequency": "Paid Per Visit",
+      "side": {
+        "description": "Nullam id nibh scelerisque, mattis dui quis, ultricies dui. Aenean ante metus, volutpat ac nunc sit amet, pellentesque vehicula risus. Suspendisse suscipit elit quis metus mollis rhoncus. Pellentesque condimentum accumsan bibendum. Nunc tristique massa a nisl dignissim rhoncus. Duis rhoncus mi nec malesuada semper. Praesent vel tortor id justo bibendum tempor. Sed pellentesque, leo vel aliquet pharetra, risus ipsum sodales lacus, quis ultricies elit nibh et magna. Mauris pulvinar porta nisl, id blandit velit rhoncus a. "
       }
     }
   ]
