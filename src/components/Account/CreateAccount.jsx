@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import background from '../../assets/images/ZooBack.jpg';
 
 export const CreateAccount = () => {
