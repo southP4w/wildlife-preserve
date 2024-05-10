@@ -1,38 +1,62 @@
 [
   {
     "id": "1",
-    "title": "Standard Pass",
+    "title": "Basic Pass",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eleifend ligula. Nulla quis dapibus risus. Maecenas accumsan lectus vitae mollis dapibus. Curabitur in dolor vitae metus pulvinar luctus. Pellentesque tincidunt et metus non consequat. Vestibulum facilisis mauris vitae sagittis accumsan. Sed nisi neque, commodo sed tincidunt facilisis, fringilla vel urna. Praesent nec tempor neque, eu fringilla mauris. Sed justo nunc, finibus sit amet maximus et, scelerisque in diam. Sed eu ex rhoncus, aliquet turpis finibus, iaculis eros.",
-    "price": "$1"
+    "price": "$10.00",
+    "deluxe": {
+      "description": "",
+      "price": "+ $5.00"
+    }
   },
   {
     "id": "2",
-    "title": "Tier 2",
+    "title": "Bronze Pass",
     "description": "Donec molestie ante nec ipsum tincidunt commodo eget eu libero. Fusce arcu urna, tristique nec finibus ut, venenatis vitae leo. Praesent condimentum pharetra sollicitudin. Nam eget vehicula purus. Fusce nec ultrices ante. Praesent vel quam efficitur, porta eros ac, condimentum tortor. In vitae urna tellus. Nulla facilisi. Praesent eleifend quis felis quis tempor. Donec pellentesque, eros in facilisis porttitor, justo sem viverra mauris, vitae aliquet urna quam a enim. Donec dictum rhoncus lobortis. In lacinia imperdiet placerat. ",
-    "price": "$2"
+    "price": "$20.00",
+    "deluxe": {
+      "description": "",
+      "price": "+ $7.50"
+    }
   },
   {
     "id": "3",
-    "title": "Tier 3",
+    "title": "Silver Pass",
     "description": "Fusce cursus arcu quis vehicula tincidunt. Proin euismod neque et nibh mollis, quis pretium elit tristique. Nam consectetur, dolor vestibulum facilisis porta, metus lectus fermentum lorem, a laoreet est ex vitae est. Nam luctus leo eu dapibus condimentum. Aliquam erat volutpat. Praesent dolor ex, efficitur aliquam maximus in, tincidunt in lorem. Curabitur felis risus, pulvinar sit amet urna et, facilisis tincidunt risus. Mauris feugiat arcu at venenatis posuere. ",
-    "price": "$3"
+    "price": "$28.50",
+    "deluxe": {
+      "description": "",
+      "price": "+ $8.00"
+    }
   },
   {
     "id": "4",
-    "title": "Tier 4",
+    "title": "Gold Pass",
     "description": "Fusce id rutrum ipsum, id pharetra ex. Mauris posuere, ipsum at sollicitudin molestie, lectus sapien ultrices augue, eu dignissim magna lacus vitae nulla. Phasellus dictum urna et mollis semper. Etiam turpis odio, bibendum eu dolor quis, scelerisque mollis lorem. Vestibulum nec varius dolor. Vestibulum vestibulum pellentesque leo in malesuada. Etiam nec metus placerat odio posuere aliquam nec ut nulla. Maecenas quis leo tempus, interdum est vitae, molestie nisl. Fusce aliquet nunc eu massa cursus, sit amet imperdiet leo pharetra. Proin ultricies magna facilisis velit tempor, non hendrerit nisl laoreet. ",
-    "price": "$4"
+    "price": "$38.00",
+    "deluxe": {
+      "description": "",
+      "price": "+ $8.00"
+    }
   },
   {
     "id": "5",
-    "title": "Tier 5",
+    "title": "Platinum Pass",
     "description": "Aliquam vitae ullamcorper tortor. Curabitur sem ligula, gravida sit amet arcu nec, vulputate pellentesque augue. Pellentesque ipsum augue, commodo in egestas non, congue sit amet leo. Nam ut vehicula libero. Sed ac lobortis felis. In hac habitasse platea dictumst. Curabitur pulvinar volutpat nisi a pharetra. Donec dui dolor, pharetra nec quam id, finibus commodo justo. Integer id sem at felis pulvinar placerat non in metus. Suspendisse potenti. Morbi auctor elementum turpis, sit amet semper libero ultricies sed. Mauris pellentesque quam at ipsum efficitur porttitor.",
-    "price": "$5"
+    "price": "$55.00",
+    "deluxe": {
+      "description": "",
+      "price": "+ $10.00"
+    }
   },
   {
     "id": "6",
-    "title": "Tier 6",
+    "title": "Diamond Pass",
     "description": "Nam eu elit feugiat, ultricies ligula sed, pretium ex. Quisque enim nisl, tempus non enim vel, rhoncus vestibulum erat. Donec varius, justo in tempus placerat, urna nibh lobortis justo, in sagittis justo eros ac tellus. Maecenas eu commodo lorem, non finibus eros. Curabitur et odio aliquam, elementum nisi eu, interdum turpis. Fusce ac pharetra elit, eu tempor eros. Donec finibus tellus tincidunt faucibus auctor. Phasellus ac commodo mi, et venenatis mauris. ",
-    "price": "$6"
+    "price": "$70.00",
+    "deluxe": {
+      "description": "",
+      "price": "+ $10.00"
+    }
   }
 ]
