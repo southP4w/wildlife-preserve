@@ -22,7 +22,7 @@ export const Navbar = () => {
 								<NavLink to='/passes' className={linkClass}>Pricing</NavLink>
 								<NavLink to='/animals.html' className={linkClass}>Animals</NavLink>
 								<NavLink to='/contact.html' className={linkClass}>Contact</NavLink>
-								<NavLink to='/login.html' className={linkClass}>Login</NavLink>
+								<NavLink to='/login' className={linkClass}>Login</NavLink>
 							</div>
 						</div>
 					</div>
