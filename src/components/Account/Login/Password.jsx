@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import background from '../../../assets/images/ZooBack.jpg';
-import React from "react";
 
 export const Password = () => {
 	return (
