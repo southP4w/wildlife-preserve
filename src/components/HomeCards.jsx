@@ -3,6 +3,7 @@
 import Card from './Card.jsx'
 import {useState} from 'react';
 
+
 export const HomeCards = () => {
 	const [rippleStyle1, setRippleStyle1] = useState({});
 	const [rippleStyle2, setRippleStyle2] = useState({});
@@ -88,6 +89,7 @@ export const HomeCards = () => {
 								</a>
 								<span style={rippleStyle1}></span>
 							</div>
+
 						</Card>
 						<Card bg={'bg-indigo-100'}>
 							<h2 className="text-2xl font-bold">Heading</h2>
