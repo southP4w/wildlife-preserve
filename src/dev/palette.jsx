@@ -8,8 +8,8 @@ import {
 
 export const PaletteTree = () => (
 	<Palette>
-		<Category name='App'>
-			<Component name='Loader'>
+		<Category name="App">
+			<Component name="Loader">
 				<Variant>
 					<ExampleLoaderComponent/>
 				</Variant>

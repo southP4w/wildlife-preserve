@@ -1,5 +1,5 @@
-import { Password } from "../components/Account/Login/Password.jsx";
-import { AutoText } from "../components/Account/Login/AutoText.jsx";
+import {Password} from "../components/Account/Login/Password.jsx";
+import {AutoText} from "../components/Account/Login/AutoText.jsx";
 import backgroundImage from '../assets/images/ZooBack.jpg'; // Ensure the path is correctly imported
 
 export const Login = () => {
@@ -17,7 +17,7 @@ export const Login = () => {
 				top: 0,
 				left: 0,
 				zIndex: -1 // Places the image behind the content
-			}} />
+			}}/>
 			<div style={{
 				backgroundColor: 'rgba(255, 255, 255, 0.8)', // Adds a white overlay for readability
 				padding: '40px',
@@ -31,8 +31,8 @@ export const Login = () => {
 				textAlign: 'center',
 				zIndex: 2 // Ensures the form is above the background
 			}}>
-				<AutoText />
-				<Password />
+				<AutoText/>
+				<Password/>
 			</div>
 		</div>
 	);

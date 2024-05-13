@@ -42,8 +42,10 @@ export const CreateAccount = () => {
 				margin: '10px',
 				filter: `blur(${blurValue}px)`  // Ensure this line is uncommented and correctly formatted
 			}}/>
-			<div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center" style={{margin: '20px'}}>
-				<div className="bg-white bg-opacity-75 shadow-md rounded px-8 pt-6 pb-8 mb-4" style={{maxWidth: '400px'}}>
+			<div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center"
+				 style={{margin: '20px'}}>
+				<div className="bg-white bg-opacity-75 shadow-md rounded px-8 pt-6 pb-8 mb-4"
+					 style={{maxWidth: '400px'}}>
 					<form onSubmit={handleSubmit}>
 						<div className="mb-4">
 							<label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">

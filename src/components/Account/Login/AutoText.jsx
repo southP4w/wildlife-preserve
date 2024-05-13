@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 
 export const AutoText = () => {
 	const defaultMessage = "Welcome To the Zoo!";
@@ -26,14 +26,17 @@ export const AutoText = () => {
 	};
 
 	return (
-		<div style={{ textAlign: 'center', margin: '20px' }}>
-			<div style={{ fontSize: '24px', height: '30px' }}>
+		<div style={{textAlign: 'center', margin: '20px'}}>
+			<div style={{fontSize: '24px', height: '30px'}}>
 				{message}
 			</div>
 			<div>
-				<button onClick={() => changeSpeed(-10)} style={{ fontSize: '16px', padding: '10px', marginRight: '5px' }}>▲</button>
+				<button onClick={() => changeSpeed(-10)}
+						style={{fontSize: '16px', padding: '10px', marginRight: '5px'}}>▲
+				</button>
 				Speed: {speed} ms
-				<button onClick={() => changeSpeed(10)} style={{ fontSize: '16px', padding: '10px', marginLeft: '5px' }}>▼</button>
+				<button onClick={() => changeSpeed(10)}
+						style={{fontSize: '16px', padding: '10px', marginLeft: '5px'}}>▼</button>
 			</div>
 		</div>
 	);

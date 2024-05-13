@@ -5,7 +5,7 @@ import {PassListings} from "../components/PassListings.jsx";
 const ComponentPreviews = () => {
 	return (
 		<Previews palette={<PaletteTree/>}>
-			<ComponentPreview path='/PassListings'>
+			<ComponentPreview path="/PassListings">
 				<PassListings/>
 			</ComponentPreview>
 		</Previews>

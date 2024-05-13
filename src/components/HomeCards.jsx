@@ -89,7 +89,6 @@ export const HomeCards = () => {
 								</a>
 								<span style={rippleStyle1}></span>
 							</div>
-
 						</Card>
 						<Card bg={'bg-indigo-100'}>
 							<h2 className="text-2xl font-bold">Heading</h2>

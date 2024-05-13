@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import axios from 'axios';
 
 export const ChatBot = () => {
@@ -6,8 +6,8 @@ export const ChatBot = () => {
 	const [replies, setReplies] = useState([]);
 
 	const sendMessage = async () => {
-		const response = await axios.post('http://localhost:5000/bot', { message });
-		setReplies([...replies, { query: message, reply: response.data.reply }]);
+		const response = await axios.post('http://localhost:5000/bot', {message});
+		setReplies([...replies, {query: message, reply: response.data.reply}]);
 		setMessage('');
 	};
 
@@ -15,8 +15,12 @@ export const ChatBot = () => {
 		<div className="max-w-lg mx-auto p-4 bg-white shadow-lg rounded-lg">
 			<h1 className="text-2xl font-bold text-center text-gray-800 mb-4">Chat with our Bot</h1>
 			<div className="mb-4">
-				<input type="text" className="form-input w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500" value={message} onChange={e => setMessage(e.target.value)} onKeyPress={event => event.key === 'Enter' ? sendMessage() : null}/>
-				<button onClick={sendMessage} className="mt-2 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+				<input type="text"
+					   className="form-input w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500"
+					   value={message} onChange={e => setMessage(e.target.value)}
+					   onKeyPress={event => event.key === 'Enter' ? sendMessage() : null}/>
+				<button onClick={sendMessage}
+						className="mt-2 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
 					Send
 				</button>
 			</div>
