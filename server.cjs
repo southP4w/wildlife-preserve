@@ -24,5 +24,18 @@ app.post('/register', async (req, res) => {
 	res.send('Account created successfully');
 });
 
+// Chatbot Endpoint
+app.post('/bot', (req, res) => {
+	const { message } = req.body;
+	// Simple chatbot logic
+	let reply = "I'm not sure how to respond to that.";
+	if (message.toLowerCase().includes('hello')) {
+		reply = 'Hello there!';
+	} else if (message.toLowerCase().includes('help')) {
+		reply = 'How can I assist you today?';
+	}
+	res.json({ reply });
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));

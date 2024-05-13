@@ -2,6 +2,7 @@ import {Hero} from '../components/Hero'
 import {HomeCards} from '../components/HomeCards'
 import {PassListings} from '../components/PassListings.jsx'
 import {ViewAllPasses} from "../components/ViewAllPasses.jsx";
+import {ChatBot} from '../components/ChatBot';
 
 export const HomePage = () => {
 	return (
@@ -10,6 +11,7 @@ export const HomePage = () => {
 			<HomeCards/>
 			<PassListings isHome={true}/>
 			<ViewAllPasses/>
+			<ChatBot/>
 		</>
 	)
 }
