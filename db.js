@@ -1,8 +1,10 @@
 require('dotenv').config(); // This loads the environment variables from the .env file
+//function to connect to the MongoDB database
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
 	try {
+		// Connect to MongoDB using the URI from .env file
 		await mongoose.connect(process.env.MONGO_URI, { // Using the connection string from the .env file
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
@@ -14,4 +16,4 @@ const connectDB = async () => {
 	}
 };
 
-module.exports = connectDB; // Exports the function for use in other parts of the application
+module.exports = connectDB; // Make the connectDB function available to other parts of the app
