@@ -1,5 +1,3 @@
-import ostrich1 from '../assets/images/ostrich1.jpg'
-import ostrich2 from '../assets/images/ostrich2.png'
 import Zoo from '../assets/images/ZooGrand.jpg'
 
 export const Hero = ({
