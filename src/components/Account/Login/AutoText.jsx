@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
+
+//Udemy Project Auto text to create a line of code above the Sign in page to Wrtie out Welcome to the zoo
 export const AutoText = () => {
 	const defaultMessage = "Welcome To the Zoo!";
 	const [speed, setSpeed] = useState(100); // Initial speed in milliseconds, lower is faster
@@ -24,7 +26,7 @@ export const AutoText = () => {
 			setSpeed(newSpeed);
 		}
 	};
-
+//Sets the margins for the text
 	return (
 		<div style={{textAlign: 'center', margin: '20px'}}>
 			<div style={{fontSize: '24px', height: '30px'}}>
