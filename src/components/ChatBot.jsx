@@ -23,7 +23,7 @@ export const ChatBot = () => {
 					   value={message} onChange={e => setMessage(e.target.value)}
 					   onKeyPress={event => event.key === 'Enter' ? sendMessage() : null}/>
 				<button onClick={sendMessage}
-						className="mt-2 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+						className="mt-2 w-full bg-green-700 hover:bg-green-500 text-white font-bold py-2 px-4 rounded">
 					Send
 				</button>
 			</div>

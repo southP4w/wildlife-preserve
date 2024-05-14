@@ -9,7 +9,7 @@ const PassPage = () => {
 		<>
 			<section>
 				<div className="container m-auto py-6 px-6">
-					<Link to="/passes" className="text-indigo-500 hover:text-indigo-600 flex items-center">
+					<Link to="/passes" className="text-green-900 hover:text-green-700 flex items-center">
 						<FaArrowLeft className={'mr-2'}/>Back to Pass Listings
 					</Link>
 				</div>
@@ -28,10 +28,10 @@ const PassPage = () => {
 								</div>
 							</div>
 							<div className="bg-white p-6 rounded-lg shadow-md mt-6">
-								<h3 className="text-indigo-800 text-lg font-bold mb-6">
+								<h3 className="text-green-900 text-lg font-bold mb-6">
 									Includes</h3>
 								<p className="mb-4">{pass.features}</p>
-								<h3 className="text-indigo-800 text-lg font-bold mb-2">Price</h3>
+								<h3 className="text-green-800 text-lg font-bold mb-2">Price</h3>
 								<p className="mb-4">{pass.price}</p>
 							</div>
 						</main>
@@ -46,7 +46,7 @@ const PassPage = () => {
 							<div className="bg-white p-6 rounded-lg shadow-md mt-6">
 								<h3 className="text-xl font-bold mb-6">Select Pass</h3>
 								<Link to={`/passes/purchase/${pass.id}`}
-									  className="bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block">Purchase</Link>
+									  className="bg-green-600 hover:bg-green-500 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block">Purchase</Link>
 							</div>
 						</aside>
 					</div>
