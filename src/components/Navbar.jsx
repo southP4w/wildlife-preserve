@@ -18,6 +18,7 @@ export const Navbar = () => {
 								className="hidden md:block text-white text-2xl font-bold ml-2">QC Wildlife Preserve</span>
 						</NavLink>
 						<div className="md:ml-auto">
+							{/* Dynamic links to all the pages, via the Navbar */}
 							<div className="flex space-x-2">
 								<NavLink to="/" className={linkClass}>Home</NavLink>
 								<NavLink to="/passes" className={linkClass}>Pricing</NavLink>

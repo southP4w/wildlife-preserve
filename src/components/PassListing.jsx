@@ -4,6 +4,7 @@ import {FaTree} from 'react-icons/fa'
 export const PassListing = ({pass}) => {
 	const [showDescription, setShowDescription] = useState(false)
 	let id = pass.id, title = pass.title, features = pass.features, price = pass.price
+	// Expanding description section on the PassListing preview
 	if (!showDescription)
 		features = features.substring(0, 90) + '...'
 	return (

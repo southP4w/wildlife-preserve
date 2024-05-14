@@ -2,6 +2,9 @@ import {Link} from "react-router-dom";
 import {FaExclamationTriangle} from "react-icons/fa"
 
 export const NotFoundPage = () => {
+	/**
+	 * 404 Page for pages not found. For demonstration purposes, the HomeCards pages have been left as 404 pages in order to show our custom 404 Page
+	 */
 	return (
 		<section className="text-center flex flex-col justify-center items-center h-96">
 			<FaExclamationTriangle className="text-yellow-400 text-6xl mb-4"/>

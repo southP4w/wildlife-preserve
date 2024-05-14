@@ -10,6 +10,7 @@ import AnimalsPage from "./pages/AnimalsPage.jsx";
 import ContactMain from "./pages/ContactMain.jsx";
 
 const router = createBrowserRouter(
+	// List of routes to pages for the site
 	createRoutesFromElements(
 		<Route path="/" element={<MainLayout/>}>
 			<Route index element={<HomePage/>}/>
@@ -19,7 +20,7 @@ const router = createBrowserRouter(
 			<Route path={'/passes/:id'} element={<PassPage/>} loader={passLoader}/>
 			<Route path={'/animals'} element={<AnimalsPage/>}/>
 			<Route path={'/contact'} element={<ContactMain/>}/>
-			<Route path={'*'} element={<NotFoundPage/>}/>
+			<Route path={'*'} element={<NotFoundPage/>}/>	// 404 page
 		</Route>
 	)
 );

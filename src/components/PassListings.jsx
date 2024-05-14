@@ -8,6 +8,7 @@ export const PassListings = ({isHome = false}) => {
 
 	useEffect(() => {
 		const fetchPasses = async () => {
+			// Limits the preview of passes to only 3 (unless clicked)
 			const apiURL = isHome
 				? '/api/passes?_limit=3'
 				: '/api/passes'
@@ -24,6 +25,9 @@ export const PassListings = ({isHome = false}) => {
 		let promise = fetchPasses();
 	}, [])
 
+	/**
+	 * Returns the PassListings page
+	 */
 	return (
 		<section className='bg-blue-50 px-4 py-10'>
 			<div className='container-xl lg:container m-auto'>
