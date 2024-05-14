@@ -6,8 +6,11 @@ export const ChatBot = () => {
 	const [replies, setReplies] = useState([]);
 
 	const sendMessage = async () => {
+		// Send POST request to the bot server with user message
 		const response = await axios.post('http://localhost:5000/bot', {message});
+		// Update replies state with user query and bot's reply
 		setReplies([...replies, {query: message, reply: response.data.reply}]);
+		// Clear the input message after sending
 		setMessage('');
 	};
 
@@ -18,7 +21,7 @@ export const ChatBot = () => {
 				<input type="text"
 					   className="form-input w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500"
 					   value={message} onChange={e => setMessage(e.target.value)}
-					   onKeyPress={event => event.key === 'Enter' ? sendMessage() : null}/>
+					   onKeyPress={event => event.key === 'Enter' ? sendMessage() : null}/> // Send message on Enter key press
 				<button onClick={sendMessage}
 						className="mt-2 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
 					Send
@@ -27,9 +30,9 @@ export const ChatBot = () => {
 			<ul className="list-none space-y-2">
 				{replies.map((item, index) => (
 					<li key={index} className="bg-gray-100 p-3 rounded-lg">
-						<strong>You:</strong> {item.query}
+						<strong>You:</strong> {item.query} {/* Display user query */}
 						<br/>
-						<strong>Bot:</strong> {item.reply}
+						<strong>Bot:</strong> {item.reply} {/* Display bot's reply */}
 					</li>
 				))}
 			</ul>
