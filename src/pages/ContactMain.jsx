@@ -39,7 +39,7 @@ const ContactPage = () => {
 		},
 		{
 			name: 'Ardit Hoxhaj',
-			imageUrl: 'https://cdn.discordapp.com/attachments/1166898397551267911/1239388116012371968/DSC07701.jpg?ex=6642bda1&is=66416c21&hm=857305689cbeb67d56f621ec0879e70297cce747701f6af911293c468e9f6aa0&',
+			imageUrl: 'https://cdn.discordapp.com/attachments/1166898397551267911/1239388116012371968/DSC07701.jpg?ex=66440f21&is=6642bda1&hm=2a698f3b6f1b9f04b3644a37222e87b7fea5f9fa7c60a96f5d3ea7e07dcefaf8& ',
 			description: 'Hello, My name is Ardit Hoxhaj. I am a Senior at Queens College. I’m Graduating this semester so long as I pass these classes.',
 		}
 	];

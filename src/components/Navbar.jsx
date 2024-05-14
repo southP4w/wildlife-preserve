@@ -21,8 +21,8 @@ export const Navbar = () => {
 							<div className="flex space-x-2">
 								<NavLink to="/" className={linkClass}>Home</NavLink>
 								<NavLink to="/passes" className={linkClass}>Pricing</NavLink>
-								<NavLink to="/animals.html" className={linkClass}>Animals</NavLink>
-								<NavLink to="/contact.html" className={linkClass}>Contact</NavLink>
+								<NavLink to="/animals" className={linkClass}>Animals</NavLink>
+								<NavLink to="/contact" className={linkClass}>Contact</NavLink>
 								<NavLink to="/login" className={linkClass}>Login</NavLink>
 							</div>
 						</div>
