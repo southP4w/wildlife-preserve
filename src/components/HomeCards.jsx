@@ -81,10 +81,8 @@ export const HomeCards = () => {
 							<h2 className="text-2xl font-bold">Live shows</h2>
 							<p className="mt-2 mb-4">
 								Watch A live Animal show!</p>
-							<div className="relative overflow-hidden">
-								<a href="/page.html"
-								   className="inline-block bg-green-700 text-white rounded-lg px-4 py-2 hover:bg-green-900"
-								   onClick={handleClick1}>
+							<div className="relative overflow-hidden"> 
+								<a href="/page.html" className="inline-block bg-green-700 text-white rounded-lg px-4 py-2 hover:bg-green-900" onClick={handleClick1}>
 									More
 								</a>
 								<span style={rippleStyle1}></span>
@@ -95,9 +93,7 @@ export const HomeCards = () => {
 							<p className="mt-2 mb-4">
 								Come Feed our Animals!</p>
 							<div className="relative overflow-hidden">
-								<a href="/page.html"
-								   className="inline-block bg-green-900 text-white rounded-lg px-4 py-2 hover:bg-green-900"
-								   onClick={handleClick2}>
+								<a href="/page.html" className="inline-block bg-green-900 text-white rounded-lg px-4 py-2 hover:bg-green-900" onClick={handleClick2}>
 									More
 								</a>
 								<span style={rippleStyle2}></span>

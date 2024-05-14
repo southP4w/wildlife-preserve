@@ -45,11 +45,10 @@ const ContactPage = () => {
 	];
 
 	return (
-		<div style={{ backgroundColor: "#3B82F6", minHeight: "100vh", paddingTop: "50px" }}>
-			<h1 style={{ textAlign: "center", color: "#FFFFFF" }}>Meet The Team</h1>
+		<div style={{ backgroundColor: "#91cc7d", minHeight: "100vh", paddingTop: "50px" }}>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 				{people.map((person, index) => (
-					<div key={index} className="bg-indigo-700 p-6 rounded-lg shadow-lg">
+					<div key={index} className="bg-green-900 p-6 rounded-lg shadow-lg">
 						<img src={person.imageUrl} alt={person.name} className="w-full h-auto rounded-lg mb-4" />
 						<div>
 							<h2 className="text-lg font-semibold mb-2">{person.name}</h2>

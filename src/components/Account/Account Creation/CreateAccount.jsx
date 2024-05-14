@@ -3,20 +3,23 @@ import React, {useState} from 'react';
 import background from '../../../assets/images/ZooBack.jpg';  // Ensure the path is correct
 import axios from 'axios';
 
+
+//Udemy project Background Blur
 export const CreateAccount = () => {
-	// State to keep track of password length
+	//State to keep track of password length
 	const [blurValue, setBlurValue] = useState(20);
 
+	//Handles the password input creation
 	const handlePasswordChange = (event) => {
 		const inputLength = event.target.value.length;
 		const newBlurValue = Math.max(20 - inputLength * 2, 0); // Ensuring the blur value doesn't go below 0
 		setBlurValue(newBlurValue);
 	};
 
-	const handleSubmit = async (event) => {
+	const handleSubmit = async (event) => {   // Async Event
 		event.preventDefault();  // Prevent the form from refreshing the page
 
-		// Data to be sent to the server
+		//Data to be sent to the server
 		const userData = {
 			email: event.target.email.value,
 			username: event.target.username.value,
@@ -27,20 +30,20 @@ export const CreateAccount = () => {
 			// Send a POST request to the server endpoint
 			const response = await axios.post('http://localhost:5000/register', userData);
 			console.log('Account created:', response.data);
-			// Optionally, handle response data here
+			//Optionally, handle response data here
 		} catch (error) {
 			console.error('Failed to create account:', error.response.data);
-			// Optionally, handle errors here
+			//Optionally, handle errors here
 		}
 	};
 
-
+//Creates the area for an individual to input their information
 	return (
 		<section style={{position: 'relative', height: '96vh'}}>
 			<img id="background" className="w-full h-full" src={background} alt="Background Image" style={{
 				objectFit: 'cover',
 				margin: '10px',
-				filter: `blur(${blurValue}px)`  // Ensure this line is uncommented and correctly formatted
+				filter: `blur(${blurValue}px)`  //blur value for the Background
 			}}/>
 			<div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center"
 				 style={{margin: '20px'}}>

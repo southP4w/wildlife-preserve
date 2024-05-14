@@ -1,9 +1,14 @@
 import Zoo from '../assets/images/ZooGrand.jpg'
+//Imports
 
+
+//Heading Greetings for the Home page
 export const Hero = ({
 						 mainHeading = 'CUNY Queens College Wildlife Preserve',
 						 mainHeadingSubtext = 'Start your adventure'
 					 }) => {
+
+	//Creates the image for the Homepage
 	return (
 		<section className="relative w-full">
 			<img className="w-full" src={Zoo} alt="Ostrich Logo" style={{

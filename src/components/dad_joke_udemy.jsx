@@ -1,40 +1,5 @@
 import { useState, useEffect } from 'react';
 
-/*const DadJoke = () => {
-    const [joke, setJoke] = useState(""); // Define joke state
-
-    // Function to generate a joke
-    const generateJoke = async () => {
-        const config = {
-            headers: {
-                Accept: 'application/json',
-            },
-        }
-
-        const res = await fetch('https://icanhazdadjoke.com', config)
-        const data = await res.json()
-
-        setJoke(data.joke);
-    }
-
-    useEffect(() => {
-        // Call the function to generate a joke initially
-        generateJoke();
-    }, []);
-
-    return (
-        <div className="container text-center">
-            <div className="joke mb-4">{joke}</div>
-            <button className="btn bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded"
-                    onClick={generateJoke}>
-                Get Another Joke 😄
-            </button>
-</div>
-)
-    ;
-};*/
-
-
 const DadJoke = () => {
     const [joke, setJoke] = useState(""); // Define joke state
 

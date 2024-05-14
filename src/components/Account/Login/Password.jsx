@@ -21,7 +21,7 @@ export const Password = () => {
 		}
 	};
 
-
+//Styles the page making the actual section to sign in
 	return (
 		<div style={{
 			width: '100%',
