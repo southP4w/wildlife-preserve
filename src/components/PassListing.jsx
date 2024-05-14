@@ -14,8 +14,8 @@ export const PassListing = ({pass}) => {
 					<h3 className="text-xl font-bold"></h3>
 				</div>
 				<div className="mb-5"></div>
-				<h3 className="text-indigo-500 mb-2">{features}</h3>
-				<button className={'text-indigo-500.mb-5 hover:text-indigo-600'}
+				<h3 className="text-green-900 mb-2">{features}</h3>
+				<button className={'text-green-900.mb-5 hover:text-green-900'}
 						onClick={() => setShowDescription((previousState) => !previousState)}>
 					Show {showDescription ? 'less' : 'more'}
 				</button>
@@ -25,7 +25,7 @@ export const PassListing = ({pass}) => {
 						<FaTree className={'inline text-lg mb-1 mr-1'}/>{price}
 					</div>
 					<a href={`/passes/${id}`}
-					   className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm">
+					   className="h-[36px] bg-green-900 hover:bg-green-900 text-white px-4 py-2 rounded-lg text-center text-sm">
 						Read More
 					</a>
 				</div>
