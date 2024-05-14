@@ -2,14 +2,16 @@ import {NavLink} from 'react-router-dom';
 import React, {useState} from 'react';
 import axios from 'axios';
 
-
+// responsible for handling user logins.
 export const Password = () => {
+	// useState hook to keep track of username and password input by the user
 	const [username, setUsername] = useState('');
 	const [password, setPassword] = useState('');
-
+// handleSubmit function will be called when the form is submitted
 	const handleSubmit = async (event) => {
 		event.preventDefault();
 		try {
+			//POST the username and password to the server endpoint for authentication
 			const response = await axios.post('http://localhost:5000/login', {username, password});
 			console.log('Login successful:', response.data);
 			alert('Login successful!');

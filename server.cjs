@@ -3,12 +3,12 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
+// Configuration to use environment variables from .env file
 require('dotenv').config();
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
-
+// Connecting to MongoDB using the connection string from the .env file
 mongoose.connect(process.env.MONGO_URI)
 	.then(() => console.log('MongoDB Connected'))
 	.catch(err => console.log(err));
@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Example user model
 const User = mongoose.model('User', new mongoose.Schema({email: String, username: String, password: String}));
-
+// Route to handle user registration
 app.post('/register', async (req, res) => {
 	const {email, username, password} = req.body;
 	const newUser = new User({email, username, password});
@@ -36,7 +36,7 @@ app.post('/bot', (req, res) => {
 	}
 	res.json({reply});
 });
-
+// Route to handle user login
 app.post('/login', async (req, res) => {
 	const {username, password} = req.body;
 	try {
@@ -52,6 +52,6 @@ app.post('/login', async (req, res) => {
 	}
 });
 
-
+// Set the server to listen on a specified port
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
